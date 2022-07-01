@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MyTestInclude">
+    <classes>
+      <class name="XMLStudy.MyTest">
+      <methods>
+      <include name = "Method3"/>
+      <include name = "Method4"/>
+      <include name = "Method5"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- MyTestInclude -->
+</suite> <!-- Suite -->
